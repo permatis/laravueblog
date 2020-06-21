@@ -14,6 +14,7 @@
                 font-family: 'Nunito', sans-serif;
                 padding: 0;
                 margin: 0;
+                font-size: 1.2rem;
             }
             .flex-center {
                 display: flex;

@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('{slug}', function() {
+Route::any('/{route}', function() {
 	return view('welcome');
-});
+})->where('route', '.*');

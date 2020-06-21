@@ -8,6 +8,7 @@ Vue.use(VueRouter)
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
+import NotFound from './pages/NotFound'
 
 //define routes
 const routes = [
@@ -25,6 +26,10 @@ const routes = [
 		path: '/dashboard',
 		name: 'dashboard',
 		component: Dashboard
+	},
+	{
+		path: '*',
+		component: NotFound
 	}
 ]
 
