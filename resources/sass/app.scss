@@ -6,3 +6,11 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+
+/* purgecss end ignore */
+@tailwind  utilities;

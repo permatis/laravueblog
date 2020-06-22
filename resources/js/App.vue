@@ -1,7 +1,9 @@
 <template>
 	<div class="">
 		<Navbar :tdkLogin="status"/>
-		<router-view  @login="gantiLoggedIn" class="data-view"></router-view>
+		<div class="container mx-auto py-12">
+			<router-view  @login="gantiLoggedIn"></router-view>
+		</div>
 	</div>
 </template>
 
@@ -32,25 +34,4 @@
 </script>
 
 <style>
-	nav {
-		position: absolute;
-  	left: 50%;
-  	transform: translatex(-50%);
-  	margin-bottom: 20px;
-	}
-	nav > a {
-		padding: 10px;
-		text-decoration: none;
-		font-weight: 600;
-	}
-	nav a.active {
-		color: blue;
-		text-decoration: underline;
-	}
-	nav a:hover {
-		color: blue;
-	}
-	.data-view {
-		margin-top: 3rem;
-	}
 </style>
