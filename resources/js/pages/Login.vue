@@ -2,7 +2,7 @@
 	<div class="flex">
     <div class="m-auto w-full max-w-md bg-white shadow-md px-5 py-5 rounded-md">
     <div class="text-2xl font-semibold tracking-wide mb-2">Login</div>
-    <p class="mb-4 -mt-1">Anda belum memiliki akun?  
+    <p class="mb-4 -mt-1"> Anda belum memiliki akun?  
       <a href="" class="text-indigo-700 font-semibold no-underline hover:no-underline">Buat akun</a>
     </p>
   		<form @submit.prevent="login" class="">
@@ -17,7 +17,7 @@
         <div class="flex mb-5">
           <div class="flex flex-auto items-center">
             <input type="checkbox" class="h-4 w-4">
-            <span class="ml-2 font-semibold text-gray-600">Jangan dilupakan</span>
+            <span class="ml-2 font-semibold text-gray-600">Ingat saya</span>
           </div>
           <div class="flex-auto text-right">
             <a href="" class="font-semibold text-indigo-700">Lupa password</a>
